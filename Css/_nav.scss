@@ -1,0 +1,45 @@
+@import '_colors';
+.nav{
+    background: $Amarillo;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0px 5px $SA;
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        gap: 10px;
+
+        // Estilo del elemento de la lista
+        li{
+            list-style: none;
+
+            .Btn{
+                border-left: none;
+                border-right: solid 1px $Azul;
+                background: $Azul;
+                color: $W;
+                padding: 10px;
+                margin-right: 10px;
+                border-radius: 10px;
+            }
+
+            div{
+                height: 19px;
+                width: 1px;
+                background: $Azul;
+            }
+
+            a{
+                text-decoration: none;
+                color: $Azul;
+                font-weight: bolder;
+                border-left: solid 1px $Azul;
+                padding: 0px 20px 0px 21px
+            }
+        }
+    }
+}

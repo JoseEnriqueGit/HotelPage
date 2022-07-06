@@ -1,0 +1,20 @@
+@import '_colors';
+@import '_nav';
+@import '_timerDiv';
+@import '_encabezado';
+@import '_divImgs';
+@import '_mapDiv';
+@import '_footer';
+
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 220vh;
+
+}

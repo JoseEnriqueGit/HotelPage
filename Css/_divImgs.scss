@@ -1,0 +1,59 @@
+.DivImgs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .Hotel{
+        width: 100%;
+        margin: 20px 0px 550px 0px;
+    }
+
+
+
+    .mainDivImg{
+        width: 50%;
+        position: absolute;
+        top: 1600px;
+        box-shadow: 30px 30px #2f93c527;
+        border: solid 10px $W;
+        border-radius: 10px;
+
+        .mainJpg{
+            width: 100%;
+        }
+
+    }
+    .senconImg{
+        display: flex;
+        justify-content: center;
+        
+        flex-direction: row;
+        position: absolute;
+        top: 1900px;
+        gap: 40px;
+
+        .img-1, .img-2, .img-3{
+            // width: 330px;
+            // height: 240px;
+
+            width: 20%;
+            box-shadow: 30px 30px #2f93c527;
+            border: solid 10px $W;
+            border-radius: 10px;
+        }
+    }
+}
+.line3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div{
+        width: 400px;
+        height: 5px;
+        background: $AL;
+        border-radius: 100px;
+
+    }
+}

@@ -1,0 +1,129 @@
+.Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span{
+        font-size: xx-large;
+        font-weight: bolder;
+        color: $Azul;
+        margin: 20px 0px;
+    }
+}
+
+.mapDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // position: absolute;
+    width: 100%;
+    img{
+        width: 100%;
+
+    }
+
+    .info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+
+        width: 500px;
+        height: 300px;
+        background: $W;
+        border-radius: 10px;
+        box-shadow: 30px 23px #767c8059;
+
+        .icon{
+            background: $Light;
+            width: 80px;
+            height: 80px;
+
+            border-radius: 100px;
+            position: absolute;
+            top: -40px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 3px #C0412E;
+
+            img{
+                width: 50%;
+            }
+
+        }   
+        .title{
+            position: relative;
+            bottom: 50px;
+            color: #C0412E;
+            font-size: medium;
+            font-weight: bolder;
+        }
+        .sp1{
+            position: relative;
+            bottom: 40px;
+            font-size: small;
+            color: $Gray;
+        }
+        .line3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            bottom: 30px;
+    
+            div{
+                width: 250px;
+                height: 2px;
+                background: $Gray;
+                border-radius: 100px;
+    
+            }
+        }
+        .sp2{
+            position: relative;
+            bottom: 20px;
+            font-size: small;
+            font-weight: 500;
+            color: $Gray;
+        }
+        .sp3{
+            position: relative;
+            bottom: 10px;
+            font-size: small;
+            font-weight: 500;
+            color: $Gray;
+        }
+        a{
+            position: relative;
+            bottom: 0px;
+            text-decoration: none;
+            color: $AL;
+            font-size: small;
+            font-weight: 500;
+        }
+        .sp4{
+            position: relative;
+            bottom: -10px;
+            font-size: medium;
+            font-weight: 500;
+            color: $Gray;
+        }
+    }
+}
+.line4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+    div{
+        width: 400px;
+        height: 5px;
+        background: $AL;
+        border-radius: 100px;
+
+    }
+}
